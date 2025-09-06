@@ -15,29 +15,34 @@ This is a toolkit containing various network and security tools like port scanne
    ```bash
    pkg install python git -y
    ```
+   
+3. **Install the required Python package (requests)**
+   ```bash
+   pip install requests
+   ```
 
-3. **Clone the repository**
+4. **Clone the repository**
    ```bash
    git clone https://github.com/techvyana20-oss/techvyana-toolkit.git
    cd techvyana-toolkit
    ```
 
-4. **Install Python dependencies**
+5. **Install Python dependencies**
    ```bash
    pip install cryptography psutil speedtest-cli requests
    ```
 
-5. **Install additional tools**
+6. **Install additional tools**
    ```bash
    pkg install nmap termux-api -y
    ```
 
-6. **Setup storage permissions**
+7. **Setup storage permissions**
    ```bash
    termux-setup-storage
    ```
 
-7. **Run the script**
+8. **Run the script**
    ```bash
    python techvyana2.0.py
    ```
@@ -72,3 +77,4 @@ This toolkit is intended for educational purposes and ethical testing on network
 ---
 
 ## 🚀 Enjoy using TechVyana Toolkit!
+
